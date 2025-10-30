@@ -1,5 +1,6 @@
 import React from 'react'
 import TopBanner from '../Components/TopBanner'
+import topbanner2 from '../assets/topbanner2.jpg'
 import Bali from '../assets/Bali.jpg'
 import Paris from '../assets/Paris.jpg'
 import Tokyo from '../assets/Tokyo.jpg'
@@ -18,7 +19,7 @@ const Tours = () => {
   ]
   return (
     <>
-      <TopBanner text='Tours' />
+  <TopBanner text='Tours' image={topbanner2} />
       <div className='max-w-7xl md:mx-auto my-10'>
         <h1 className='text-3xl lg:text-4xl font-serif mb-3 font-semibold text-center'>Top Destination</h1>
         <hr className='text-red-500 w-[200px] bg-red-500 mx-auto h-1 mb-10' />
